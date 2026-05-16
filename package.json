@@ -1,0 +1,27 @@
+{
+  "name": "study-night-optimizer",
+  "version": "1.0.0",
+  "description": "An optimized flashcard study application with automated testing, build tooling, and frontend quality assurance.",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build src/index.html",
+    "gulp": "gulp"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "chai": "^6.2.2",
+    "cypress": "^15.15.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-cypress": "^6.4.1",
+    "globals": "^17.6.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.4"
+  }
+}
